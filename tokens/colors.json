@@ -1,0 +1,22 @@
+{
+  "product": "enoTone",
+  "status": "design-approved-base",
+  "dark": {
+    "background": "#16171B",
+    "surface": "#1F2126",
+    "outline": "#33363D",
+    "text": "#F3ECE8",
+    "accent": "#E8B4A6",
+    "fur": "#EADBCB",
+    "shadowTone": "#7E9DB3"
+  },
+  "light": {
+    "background": "#F4F1F0",
+    "surface": "#FFFFFF",
+    "outline": "#DDD6D4",
+    "text": "#1C1A1D",
+    "accent": "#E3A99D",
+    "accentText": "#9C3F34",
+    "fur": "#EADBCB"
+  }
+}
