@@ -1,22 +1,31 @@
 {
   "product": "enoTone",
-  "status": "design-approved-base",
+  "version": "1.3",
+  "status": "approved-design-concept",
+  "concept": "Глянцевый енот",
+  "darkThemeName": "Графит",
+  "lightThemeName": "Фарфор",
+  "reference": {
+    "filename": "Основа палитра и стиль@2x.png",
+    "sha256": "f884320e5656e4d7b26a89df4f991b3d66958280dac46c444646cb1d3b6fa7b9",
+    "inRepository": false
+  },
   "dark": {
-    "background": "#16171B",
-    "surface": "#1F2126",
-    "outline": "#33363D",
-    "text": "#F3ECE8",
-    "accent": "#E8B4A6",
-    "fur": "#EADBCB",
-    "shadowTone": "#7E9DB3"
+    "background": "#1B1A19",
+    "surface": "#252321",
+    "surface2": "#2F2C2A",
+    "text": "#F4ECE4",
+    "textSecondary": "#B9AEA4",
+    "accent": "#EBAE9F",
+    "highlight": "#8FB0C2"
   },
   "light": {
-    "background": "#F4F1F0",
-    "surface": "#FFFFFF",
-    "outline": "#DDD6D4",
-    "text": "#1C1A1D",
-    "accent": "#E3A99D",
-    "accentText": "#9C3F34",
-    "fur": "#EADBCB"
+    "background": "#EDE9E5",
+    "surface": "#F8F5F1",
+    "surface2": "#E2DCD6",
+    "text": "#211E1C",
+    "textSecondary": "#5C544E",
+    "accentText": "#A24F3E",
+    "accentFill": "#EBAE9F"
   }
 }
