@@ -36,7 +36,7 @@ gradle --offline --no-daemon --no-build-cache clean :app:assembleDebug
 
 `lintDebug --offline` не выполнен: в локальном кэше отсутствует `com.android.tools.lint:lint-gradle:31.11.1`; повторная online-попытка была заблокирована DNS для Maven/Google репозиториев. Это не затрагивает успешную сборку APK и проверку исходных ресурсов.
 
-GitHub Actions для этого коммита: [run 41855212641](https://github.com/metravolokos/enotone-design/actions/runs/41855212641) завершился с failure до первого шага. Доступны пустой список job steps и пустой список artifacts; получение логов вернуло `BlobNotFound`. Runner не был назначен/не начал шаги, но точная причина в доступных данных отсутствует. Workflow не изменялся. GitHub Actions APK artifact для этого запуска не создан.
+Для коммита импорта исходников `1768e1be4e6f84f321eaf9a46e1435458ea1ed22` [GitHub Actions run 41855212641](https://github.com/metravolokos/enotone-design/actions/runs/41855212641) завершился с failure до первого шага. Доступны пустой список job steps и пустой список artifacts; получение логов вернуло `BlobNotFound`. Данные не показывают причину отказа runner. Workflow не изменялся; APK Actions artifact для этого запуска не создан. Также workflow всё ещё вызывает verifier с `--smoke-only`, поэтому CI-проверка ограничена APK-ресурсами и не заменяет локальную строгую проверку 37 файлов. Полный verifier прошёл локально.
 
 ## Ограничения и замечания для приёмки
 
