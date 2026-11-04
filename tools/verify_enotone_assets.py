@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Pure-stdlib deterministic verification of all current design assets and Android XML.
+"""Verify all current design asset checksums and Android smoke-test XML.
 Run from project root: python3 tools/verify_enotone_assets.py
 """
 import argparse, hashlib, json, xml.etree.ElementTree as ET
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--smoke-only', action='store_true', help='Verify supplied APK resources; full artwork import remains pending')
+parser=argparse.ArgumentParser(description='Verify current artwork checksums and Android smoke-test resources.')
+parser.add_argument('--smoke-only', action='store_true', help='Check only APK smoke resources; skip the full 37-file current-asset manifest.')
 args=parser.parse_args()
 file=root/('android-icon-smoke/RESOURCES.sha256' if args.smoke_only else 'assets/current/CHECKSUMS.sha256')
 passed=0
@@ -33,4 +33,6 @@ java = (android/'java/app/enotone/icontest/MainActivity.java').read_text(encodin
 assert r'\n2.' in java, 'Expected Java string-escaped newlines in UI checklist'
 print(f'OK: {passed} SHA256 checks, 6 launcher aliases, XML parsed')
 if args.smoke_only:
-    print('SMOKE ONLY: full 37-file artwork verification pending seven remaining archives')
+    print('SMOKE ONLY: the full 37-file current-asset manifest was not checked; run without --smoke-only for the full verification.')
+else:
+    print(f'FULL ASSET VERIFICATION: all {passed} entries in assets/current/CHECKSUMS.sha256 were checked.')

@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'android-icon-smoke/**'
+      - 'assets/current/**'
       - 'tools/verify_enotone_assets.py'
       - '.github/workflows/icon-smoke.yml'
   push:
@@ -31,8 +32,8 @@ jobs:
       - uses: android-actions/setup-android@v3
       - name: Install Android SDK
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
-      - name: Validate smoke resources (full artwork import pending)
-        run: python3 tools/verify_enotone_assets.py --smoke-only
+      - name: Validate full current artwork and smoke resources
+        run: python3 tools/verify_enotone_assets.py
       - name: Build debug APK
         working-directory: android-icon-smoke
         run: gradle --no-daemon :app:assembleDebug :app:lintDebug
