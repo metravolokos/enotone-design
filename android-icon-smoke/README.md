@@ -27,6 +27,6 @@ APK: `app/build/outputs/apk/debug/app-debug.apk`.
 
 ## Граница этого импорта
 
-Получен только `00_android_smoke_code.zip` (SHA-256 `fff4134202f182894dcb507d0a425d3d2c4207a8a3d0ecad6b861e31b1a771ec`). В проекте находятся производные PNG-ресурсы APK, а не полный комплект художественных оригиналов. `python3 tools/verify_enotone_assets.py --smoke-only` из корня проверяет 22 PNG и шесть alias. `RESOURCES.sha256` фиксирует точные байты PNG из входного ZIP. Проверка без флага остаётся строгой: все 37 файлов пока не проверены, требуются остальные семь архивов.
+Этап 1 добавил тестовые ресурсы из `00_android_smoke_code.zip` (SHA-256 `fff4134202f182894dcb507d0a425d3d2c4207a8a3d0ecad6b861e31b1a771ec`). На этапе 2 художественные оригиналы импортированы отдельно в `assets/current/`; полный отчёт — [`docs/ANDROID_SMOKE_STAGE2.md`](../docs/ANDROID_SMOKE_STAGE2.md). `python3 tools/verify_enotone_assets.py --smoke-only` проверяет 22 PNG и шесть alias, а запуск без флага проверяет все 37 записей checksum-манифеста.
 
-GitHub Actions собирает APK и выполняет lint, artifact `enotone-icon-smoke-debug-apk` содержит APK и его SHA-256. На Huawei требуется ручная проверка шести ярлыков, пальца, ушей, нижнего края и ореолов. Adaptive v2 остаётся кандидатом; проверка на устройстве не выполнялась.
+GitHub Actions должен собирать APK и выполнять lint, artifact `enotone-icon-smoke-debug-apk` содержит APK и его SHA-256 при успешном запуске. Локальная чистая offline-сборка после импорта прошла; APK и его SHA-256 указаны в отчёте этапа 2. На Huawei требуется ручная проверка шести ярлыков, пальца, ушей, нижнего края и ореолов. Adaptive v2 остаётся кандидатом; проверка на устройстве не выполнялась.

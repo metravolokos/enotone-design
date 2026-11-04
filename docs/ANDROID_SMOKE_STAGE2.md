@@ -1,33 +1,45 @@
-# Issue #3 — этап 2: preflight и повторная проверка APK
+# Issue #3 — этап 2: импорт исходников и проверка Android APK
 
-**Статус:** импорт художественных оригиналов и полная проверка 37 файлов не завершены. Рабочая среда не получила семь архивов этапа 2, поэтому ниже отдельно отмечены выполненные проверки и ограничения. PR #4 остаётся Draft.
+**Статус:** импорт выполнен в рабочей ветке Draft PR #4. Временная ветка handoff не объединялась, ZIP в PR не добавлялись. Полная SHA-256-проверка 37 файлов и локальная чистая сборка APK прошли. Ручная проверка на Huawei остаётся открытой; ADB не использовался.
 
-## Архивы и исходники
+## Получение и проверка архивов
 
-Последний комментарий ChatGPT в [PR #4](https://github.com/metravolokos/enotone-design/pull/4#issuecomment-6632537740) содержит имена и ожидаемые SHA-256 семи архивов `01_approved_icons.zip`–`07_ui_desktop_palette_wordmark.zip`. В `/workspace/attachments/` доступен только `00_android_smoke_code.zip`; его SHA-256 `fff4134202f182894dcb507d0a425d3d2c4207a8a3d0ecad6b861e31b1a771ec` совпадает с этапом 1. Файлов семи новых архивов в текущем checkout/вложениях нет, поэтому их SHA не сравнивались, распаковка не выполнялась.
+Прочитан `ARTWORK_HANDOFF_README.md` в ветке `enotone-artwork-handoff-20261104`. ZIP получены через Git fetch; временная ветка не создавалась локально и не сливалась с рабочей. SHA-256 архивов совпали с ожидаемыми значениями из README:
 
-`python3 tools/verify_enotone_assets.py` запущена без `--smoke-only` и остановилась на отсутствующем `assets/current/app-icon/v1.0/MANIFEST.json`; 37 SHA-256 не проверены. Отдельная smoke-проверка `python3 tools/verify_enotone_assets.py --smoke-only` прошла: **22 PNG SHA-256, шесть launcher alias и XML**.
+| ZIP | SHA-256 | Результат |
+| --- | --- | --- |
+| `01_enotone_artwork_A.zip` | `9844566dfd5e883554e6323ccae85aa2231aa296134ed7d204f435c0e10f22cd` | Совпадает |
+| `02_enotone_artwork_B.zip` | `b14f28a94ca3e26bd9f891572a176a63da7a4bdb9d65db35a977501b92c21519` | Совпадает |
 
-Десятисценный коллаж и прежние экспорты сохраняются только для истории; использовать их в новых макетах нельзя. Актуальным источником для будущего дизайна считается утверждённый пользователем набор из 13 PNG, а для иконки — утверждённые оригиналы v1.0. До получения архивов, проверки SHA и сохранения исходных путей эти актуальные оригиналы не считаются импортированными в репозиторий.
+Проверены CRC ZIP, безопасные относительные пути и отсутствие повторяющихся записей. Перед импортом SHA-256 всех 35 файлов сверены с `assets/current/CHECKSUMS.sha256`. Исходная структура каталогов и байты файлов сохранены. В PR импортированы 13 изображений Бандита, 4 утверждённых оригинала иконки с манифестом и доской сравнения, исходная доска палитры, 10 UI-скриншотов, а также манифест и 4 прозрачных wordmark-экспорта. Два ранее импортированных Android Adaptive v2 файла дают итоговые 37 ресурсов. ZIP в рабочую ветку не копировались.
+
+Полная команда `python3 tools/verify_enotone_assets.py` завершилась успешно:
+
+```text
+OK: 37 SHA256 checks, 6 launcher aliases, XML parsed
+```
+
+Таким образом, подтверждён весь набор из 37 записей в checksum-манифесте. Исторические изображения в `assets/references/` остаются архивными и не должны использоваться в новых макетах; актуальные 13 изображений находятся в `assets/current/mascot/v20261104/`.
 
 ## Android Icon Smoke Test
 
-Чистая offline-сборка без build cache завершилась успешно:
+После импорта выполнена чистая offline-сборка без build cache:
 
 ```bash
 source /workspace/enotone-tools/env.sh
 export ANDROID_USER_HOME=/workspace/enotone-tools/android-user-home
+cd android-icon-smoke
 gradle --offline --no-daemon --no-build-cache clean :app:assembleDebug
 ```
 
-Новый локальный APK: `android-icon-smoke/app/build/outputs/apk/debug/app-debug.apk`, SHA-256 `2047b8fd9495e8182740e41c8dee381ee4521ac1077f635fb05ab428c536723d`. Подпись APK v2 проверена, пакет `app.enotone.icontest`, в manifest шесть launcher alias, разрешений нет. В частности, `INTERNET` permission отсутствует. Этот APK собран с workspace-local debug keystore и отличается по подписи от сохранённого fallback APK; fallback в Git не заменялся.
+Результат: `BUILD SUCCESSFUL` (33 задачи). Новый локальный APK — `android-icon-smoke/app/build/outputs/apk/debug/app-debug.apk`, SHA-256 `2047b8fd9495e8182740e41c8dee381ee4521ac1077f635fb05ab428c536723d`. `apksigner verify --verbose --print-certs` подтвердил подпись APK v2. Package: `app.enotone.icontest`; version: `0.1.0-icon-smoke`; minSdk 28, targetSdk 35. В manifest 6 launcher alias и нет разрешений, включая `INTERNET`. APK подписан локальным debug-ключом среды. Сохранённый fallback APK не заменялся; его SHA-256 остаётся `8ebd3680b6390159e0242f700e836b326491bdc2ced15ed3ebdd5d2d13bae4c9`.
 
-Сохранённый в PR fallback APK по-прежнему имеет SHA-256 `8ebd3680b6390159e0242f700e836b326491bdc2ced15ed3ebdd5d2d13bae4c9` и проходит проверку подписи v2, manifest и шести alias. ADB не использовался.
+`lintDebug --offline` не выполнен: в локальном кэше отсутствует `com.android.tools.lint:lint-gradle:31.11.1`; повторная online-попытка была заблокирована DNS для Maven/Google репозиториев. Это не затрагивает успешную сборку APK и проверку исходных ресурсов.
 
-`lintDebug --offline` не прошёл: в кэше нет `com.android.tools.lint:lint-gradle:31.11.1`. Повтор online также не разрешил зависимость: DNS не разрешил `dl.google.com` и `repo.maven.apache.org`.
+## Ограничения и замечания для приёмки
 
-## GitHub Actions runner
+- Проверка launcher-масок на Huawei Nova 15 Pro остаётся ручной; устройство здесь не запускалось, ADB не применялся.
+- Экспортный `assets/current/wordmark/v1.0/MANIFEST.json` содержит `status: candidate-for-approval`, тогда как `docs/WORDMARK_MASTER_V1.md` фиксирует отдельное окончательное утверждение мастера пользователем. Исходный handoff-манифест оставлен байт-в-байт; перед использованием экспортов как окончательных нужно независимо разрешить расхождение статусов. Утверждённый мастер не менялся.
+- Сборка локально подтверждена. Статус GitHub Actions и доступность APK artifact для этого коммита следует оценить по связанной проверке PR; причина предыдущего отказа runner не установлена и workflow не менялся.
 
-[Run 41833315217, попытка 2](https://github.com/metravolokos/enotone-design/actions/runs/41833315217) завершился за три секунды до запуска шагов. И попытка 1, и попытка 2 имеют `runner_id=0`, пустые `runner_name`/`runner_group_name` и `steps=[]`; workflow просит стандартный `ubuntu-latest`. Check-run API показывает по две annotations для каждой попытки, но подключённый GitHub-инструмент не разрешает endpoint с их текстом. Получение логов вернуло `BlobNotFound`. Поэтому доказуемо только, что runner не был назначен и job не дошёл до Gradle; точная причина отказа неизвестна. Workflow не менялся.
-
-**Чтобы завершить этап 2, нужны сами семь ZIP-файлов** с контрольными суммами из комментария выше. После их получения проверить SHA, распаковать с сохранением путей, провести строгую проверку 37 файлов, повторить APK сборку/проверки и обновить PR #4. Слияния в `main` нет.
+Все изменения передаются через существующий Draft PR #4. Слияния с `main` нет.
