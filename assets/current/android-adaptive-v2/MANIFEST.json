@@ -1,0 +1,230 @@
+{
+  "project": "enoTone",
+  "version": "android-adaptive-color-v2",
+  "status": "candidate-not-device-tested",
+  "date": "2026-11-04",
+  "source": "approved icon PNG 1254px, unchanged",
+  "monochrome": "not included by user decision",
+  "foreground": "transparent extracted Bandit figure, separate from solid theme background",
+  "canvas_dp": 108,
+  "safe_diameter_dp": 66,
+  "demo_visible_mask_diameter_dp": 72,
+  "foreground_picture_rect_dp": [
+    18,
+    18,
+    90,
+    90
+  ],
+  "files": [
+    {
+      "name": "Android/drawable-night-nodpi/ic_launcher_foreground.png",
+      "bytes": 94479,
+      "sha256": "cba965c7f526b1e4db868099e32e87c7d09a407bb6945d05b4cb2d1480129ba4"
+    },
+    {
+      "name": "Android/drawable-nodpi/ic_launcher_foreground.png",
+      "bytes": 127849,
+      "sha256": "56f69cda2cd047edb2cbed030e959e82f5e05471d1d21d5ef14d4f8958dc1a80"
+    },
+    {
+      "name": "Android/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 275,
+      "sha256": "d0a78d5c609332996f241a1fbd93b77a0e201bf3909a895ec5fbf3e11d4c6a69"
+    },
+    {
+      "name": "Android/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 275,
+      "sha256": "d0a78d5c609332996f241a1fbd93b77a0e201bf3909a895ec5fbf3e11d4c6a69"
+    },
+    {
+      "name": "Android/mipmap-hdpi/ic_launcher.png",
+      "bytes": 14179,
+      "sha256": "87f840e88c6165027783ea45cbc39937521f4a31b7f984f71de10ef12db9b507"
+    },
+    {
+      "name": "Android/mipmap-hdpi/ic_launcher_round.png",
+      "bytes": 13646,
+      "sha256": "9ca40bf781660e6fd12492cfcfabeae8dd19a0fba91623f045199dc219a2656e"
+    },
+    {
+      "name": "Android/mipmap-mdpi/ic_launcher.png",
+      "bytes": 6944,
+      "sha256": "c260113ee88151008b3c35c7047244fdc5fdf037c49aea5aaf4378598b8db891"
+    },
+    {
+      "name": "Android/mipmap-mdpi/ic_launcher_round.png",
+      "bytes": 6825,
+      "sha256": "e27954b31cdc8e0aaaad7a1e4fa742fee0ba853dd414fac221b777e54b84dd0a"
+    },
+    {
+      "name": "Android/mipmap-night-hdpi/ic_launcher.png",
+      "bytes": 11327,
+      "sha256": "8d4397ba27dd99c37d28c587c308e75963c8017615c254df0a3a325d3516a953"
+    },
+    {
+      "name": "Android/mipmap-night-hdpi/ic_launcher_round.png",
+      "bytes": 13029,
+      "sha256": "fef5f924a6568f0f66d1f279cd2f35e3f637934f7e59ada156d2419896f9da0e"
+    },
+    {
+      "name": "Android/mipmap-night-mdpi/ic_launcher.png",
+      "bytes": 5725,
+      "sha256": "6ba6eafa0c01665c98eafc947c038bc4ebdafd4db68a687c2a4c6834afa076dc"
+    },
+    {
+      "name": "Android/mipmap-night-mdpi/ic_launcher_round.png",
+      "bytes": 6494,
+      "sha256": "c06e49deec16a360444c84f01451dd2c7e221d3cb90999b7a4b8217e1016c311"
+    },
+    {
+      "name": "Android/mipmap-night-xhdpi/ic_launcher.png",
+      "bytes": 18344,
+      "sha256": "c5c0d1d21e52bc55feff9ee589505e83f0db2f1dbccff623801c3f5cdb1181e8"
+    },
+    {
+      "name": "Android/mipmap-night-xhdpi/ic_launcher_round.png",
+      "bytes": 21280,
+      "sha256": "504a761a50a40ef5082557403de1d625a5828a27b3d7a7c399dda3d53356f2ef"
+    },
+    {
+      "name": "Android/mipmap-night-xxhdpi/ic_launcher.png",
+      "bytes": 36110,
+      "sha256": "9c417bd19ce0248d60798decb23ba0f2d9affb2808e262211ca884e372743e60"
+    },
+    {
+      "name": "Android/mipmap-night-xxhdpi/ic_launcher_round.png",
+      "bytes": 41700,
+      "sha256": "5a3f87e45f88067c5d9af453e5876167412f10221e7dc856b419fe7060cb13c8"
+    },
+    {
+      "name": "Android/mipmap-night-xxxhdpi/ic_launcher.png",
+      "bytes": 58063,
+      "sha256": "5732dc572e2e973cab3ce2ab21b204d6fb330da43e254d379c8d8208e046f30c"
+    },
+    {
+      "name": "Android/mipmap-night-xxxhdpi/ic_launcher_round.png",
+      "bytes": 66666,
+      "sha256": "cc3c09a3b985112580e201e5e7539393065efbbed4a7d65bab69cbdd2109ba28"
+    },
+    {
+      "name": "Android/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 23376,
+      "sha256": "de059acb44b495cf1ff017bb3b756118b3a29c2e5c554dbbee4537e1cb445bba"
+    },
+    {
+      "name": "Android/mipmap-xhdpi/ic_launcher_round.png",
+      "bytes": 22026,
+      "sha256": "c552739c463ed37b040e52f37507fa7c93a8f2402fb09063b7ff0146257833c9"
+    },
+    {
+      "name": "Android/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 46030,
+      "sha256": "5537d8d28aeccf8c3b3d029a8c4d9e143cec115f162004c2c30c8c1f7d8cd7d8"
+    },
+    {
+      "name": "Android/mipmap-xxhdpi/ic_launcher_round.png",
+      "bytes": 42404,
+      "sha256": "2ed21edd5f10d26111879c10fa80f92015337f2f5a9d7058225b6e154a626b6f"
+    },
+    {
+      "name": "Android/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 74308,
+      "sha256": "aaff80ab0ef746a2ed27cad196e66ba52507482db65f298f445c58c6c727b105"
+    },
+    {
+      "name": "Android/mipmap-xxxhdpi/ic_launcher_round.png",
+      "bytes": 67880,
+      "sha256": "3c22021a5e3ff19311e87cb473fed50bdfa10259fe6c8d1ade1b64159bdcac97"
+    },
+    {
+      "name": "Android/values/colors.xml",
+      "bytes": 126,
+      "sha256": "02877d1dab2d1c298d9c3504d0a9ad454f786a1a8a29340930e585e032c798a9"
+    },
+    {
+      "name": "Android/values-night/colors.xml",
+      "bytes": 126,
+      "sha256": "2058d58938b71a0d836b83c3979595fd8804f2f8841cc44a2153d3639543a060"
+    },
+    {
+      "name": "README.md",
+      "bytes": 2294,
+      "sha256": "f049b17b538e85f3bd4a17a4979220dfcd413477993e0ed0e9a26c8b71be0bdb"
+    },
+    {
+      "name": "previews/android_launcher_masks_comparison.png",
+      "bytes": 244205,
+      "sha256": "dbce3c147e35f5358b643ff86468b69f011eea986e76257f925a4102a57e5eb6"
+    },
+    {
+      "name": "previews/graphite_circle_192.png",
+      "bytes": 28423,
+      "sha256": "fd0307917e8855fd202efefb4e0cec5d37873810075d3c2f39cf8d78ba6e9a61"
+    },
+    {
+      "name": "previews/graphite_circle_64.png",
+      "bytes": 5094,
+      "sha256": "b93d143f38b05527e9fae2171aa394cd4b459328142bfbed69186126c3df3bcb"
+    },
+    {
+      "name": "previews/graphite_layered_432.png",
+      "bytes": 92164,
+      "sha256": "5db6e74495ad9c09344a5409220f338841a55499f7e0d6975447dd697477abb3"
+    },
+    {
+      "name": "previews/graphite_safecircle_192.png",
+      "bytes": 26657,
+      "sha256": "5109050fae2cdba00c141be15fa06ddbcb7907911a3fbce92b7af891d7dcdef8"
+    },
+    {
+      "name": "previews/graphite_safecircle_64.png",
+      "bytes": 4629,
+      "sha256": "9265139a2ea65f67f83c8be95d01c830a2a27729e8b7f7dd5ff5523d7dd9f58c"
+    },
+    {
+      "name": "previews/graphite_squircle_192.png",
+      "bytes": 27985,
+      "sha256": "d7424a40a6c130f544c7b426404f26c74c1750e1b1306ea994ce3d89fa528fd4"
+    },
+    {
+      "name": "previews/graphite_squircle_64.png",
+      "bytes": 4886,
+      "sha256": "a806559ba25dbbf627f05b26073a2c0cf83760c747ffb4525bd9b5a741633155"
+    },
+    {
+      "name": "previews/porcelain_circle_192.png",
+      "bytes": 35131,
+      "sha256": "f23f0b5f932438ec134210b94ae06d9c24aefd0fedfb31c30a2f591d2f8566c8"
+    },
+    {
+      "name": "previews/porcelain_circle_64.png",
+      "bytes": 5950,
+      "sha256": "820ad11b0b3c6e5e3d46347f7b7bcc8d6d6855134b68a0d980a21ac640dfa996"
+    },
+    {
+      "name": "previews/porcelain_layered_432.png",
+      "bytes": 125473,
+      "sha256": "430051cc477f793b096dd7593f8a9d8f0beeacb734772b5050bdf419d52cfcbe"
+    },
+    {
+      "name": "previews/porcelain_safecircle_192.png",
+      "bytes": 31531,
+      "sha256": "db5d207e0013fd21dd8a4eec3dd1043ad550b84b9e72b1078bbeff2ed31a66cd"
+    },
+    {
+      "name": "previews/porcelain_safecircle_64.png",
+      "bytes": 5230,
+      "sha256": "9226c9ae3b99ef852fe3fe13831a6330eb46aebc097b44e9a0628c1d1d6cb09f"
+    },
+    {
+      "name": "previews/porcelain_squircle_192.png",
+      "bytes": 36618,
+      "sha256": "874c50ff3544454d82c6955cf730926ff4663c55f5e411385a46f199600e6ca0"
+    },
+    {
+      "name": "previews/porcelain_squircle_64.png",
+      "bytes": 6157,
+      "sha256": "1d69423875ced4f7df748f4426c8bdd95bf5b5ca1367b5b53d03e710b1298416"
+    }
+  ]
+}

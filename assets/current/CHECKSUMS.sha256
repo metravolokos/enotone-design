@@ -1,0 +1,38 @@
+# enoTone approved source assets (SHA-256); do not modify in-place.
+b43cc1cb80a7016a103c53afce92292e9c1fdb79a965dade102251c79793720d  assets/current/android-adaptive-v2/MANIFEST.json
+dbce3c147e35f5358b643ff86468b69f011eea986e76257f925a4102a57e5eb6  assets/current/android-adaptive-v2/android_launcher_masks_comparison.png
+f4ab0a4ed650ba842be0013e28fd25ab9c6af5091fab252155e9572dee3ceae5  assets/current/app-icon/v1.0/MANIFEST.json
+4dc36fa626f7e730e63656fc09c3d87277ade7d82c591b2433aeb7b6f23c1412  assets/current/app-icon/v1.0/approved_four_comparison.png
+119f85454aeba19c1ebd05680a4632b56549f37efbad50c295bf1261be19a2c7  assets/current/app-icon/v1.0/enotone_icon_graphite_round_1254.png
+b7171e14c966fa232e683b1ef444ef6dfb66d42166e48a4a83347fb52f229255  assets/current/app-icon/v1.0/enotone_icon_graphite_square_1254.png
+bf4e341f76a38772b4bd48e280ffb81e6b14f947549465c578fb1139b40be38c  assets/current/app-icon/v1.0/enotone_icon_porcelain_round_1254.png
+9ebb268932298f841da7358a62277b84db8865d4454b8d2b92aa9e87e898132a  assets/current/app-icon/v1.0/enotone_icon_porcelain_square_1254.png
+8bb7598afd8c0e7a0eb531dec3e2b736e573631f1d19c27880eb947779faad36  assets/current/mascot/v20261104/Schlafender Waschbär auf rosa Kissen-10.png
+828120a706481216e1a6c31baf045ebfad7bd71dc6ec550355680e329bc21e25  assets/current/mascot/v20261104/Весёлый енот показывает лапки-4.png
+44bc2aa0db5a1f21c85b89b468004ac7fe2df9622d907a8a126b00c7dd948a37  assets/current/mascot/v20261104/Енот с нотной книгой и шарфом-9.png
+5008b3cf75396219eca4ca1647facefd07289dd8ede499f4947b44d87b96b1e8  assets/current/mascot/v20261104/Енотик в расслабленной позе со шарфом-6.png
+a0b3b748c7f5122d47a2495cefeacd92418d5addf31a5cadddf6f15f7a47306a  assets/current/mascot/v20261104/Задумчивый енот в коралловом шарфе-3(1).png
+d42a72effabca75c5c156f67e281f38a748e2e34122e1b87291a264e41449efc  assets/current/mascot/v20261104/Изображение ChatGPT 3 нояб. 2026 г., 23_21_21-2.png
+2238e46c59c989a603c1ebe46262d559e27b11d5ee04e6d94dc862954c071447  assets/current/mascot/v20261104/Изображение ChatGPT 3 нояб. 2026 г., 23_21_22-3.png
+3ba6dfdf3767b79cba035a16628420fdc50c190f286673fc3325ca32b7c1df5a  assets/current/mascot/v20261104/Изображение ChatGPT 3 нояб. 2026 г., 23_21_26-7.png
+3ce1466d00fea5b03cbd70144434d597f95e7f390afdca60cf5cc286076639f1  assets/current/mascot/v20261104/Изображение ChatGPT 3 нояб. 2026 г., 23_21_27-8.png
+903f94ba6c7501a909ef2dbd3262bc42765dc56e4f20c5295a0db787922bfa12  assets/current/mascot/v20261104/Изображение ChatGPT 3 нояб. 2026 г., 23_21_28-9.png
+4b3bcb56491bd6b4c0b2a0b5ab012742dfe0c36afcd1bf10712e69f11d50abba  assets/current/mascot/v20261104/Изображение ChatGPT 3 нояб. 2026 г., 23_21_29-10.png
+00ac5b8930c0de1b73796533269d5e9b837d142c813d82444fc5a91bafb567f9  assets/current/mascot/v20261104/Милый енот в красном шарфе-1.png
+1397f266cc8f385766ed05e760900648f0255e65bfeef5140b389ea748ba1ce7  assets/current/mascot/v20261104/Хитрый енот с коралловым шарфом-2(1).png
+f884320e5656e4d7b26a89df4f991b3d66958280dac46c444646cb1d3b6fa7b9  assets/current/palette/original_board.png
+25d1c54eac56ee9263a3cb9249007abb4834d1575548801e9d39bfcf771cd0b4  assets/current/ui-baseline/v1.0/Android Альбомы@2x.png
+72112fa7ddfa7763627d7e9bfed07ad6d27bf4c7dba7e23fd9b30063571b80c4  assets/current/ui-baseline/v1.0/Android Артисты@2x.png
+7c5933b4c4421c3498e1614e8ce6b205b3fb6bbf66e7de4ded77a033d2fc232c  assets/current/ui-baseline/v1.0/Android Настройки@2x.png
+ea344fc31f1f30f88cf3e481fe152a507f87e2ff90dacd83c47e62afc8b556be  assets/current/ui-baseline/v1.0/Android Сейчас играет@2x.png
+5289a95ee7c0e06875c8f816033fabe91828a781c9fe867f117963ae50750278  assets/current/ui-baseline/v1.0/Android Треки@2x.png
+1136a2d7dadf2177a1da5415cfbc1d06ca225ae9679ae2d92ab4b395ba498b55  assets/current/ui-baseline/v1.0/Desktop Альбомы@2x.png
+1b631c62be48d63d7f6a0c740ea17d455cc485728fc70dfb1ae86e927aaf88a6  assets/current/ui-baseline/v1.0/Desktop Артисты@2x.png
+12d293b98e596427738f05b53ed918227c5bd584fe24b5f68a10d616758bb13a  assets/current/ui-baseline/v1.0/Desktop Настройки@2x.png
+3a8f70781ab0b278617765d1495b60c271eba2ec062ab503be04f0dcf85f8006  assets/current/ui-baseline/v1.0/Desktop Сейчас играет@2x.png
+2e7eadbedfc022a32071be0ef8fc13b39fb02b474c628c305db8a01365396688  assets/current/ui-baseline/v1.0/Desktop Треки@2x.png
+69eea26d6981b41f96e11987ca7467c89d58274eca1afec0228daca7cb0e48ff  assets/current/wordmark/v1.0/MANIFEST.json
+9fe64a79728686a38843d757e1e2bf4cd5662e47e3267dc23fffcaf356660b81  assets/current/wordmark/v1.0/enotone_graphite_transparent.png
+e55cec493e0280b7d9b0135041113721ec2d7ff718f5d0c32239e5948f623d2a  assets/current/wordmark/v1.0/enotone_graphite_transparent.svg
+fe8cd35aa3af8153bd2fa38b72247a072166a2ae9d9b3cd7517c8f19b8994aca  assets/current/wordmark/v1.0/enotone_porcelain_transparent.png
+8fdadb698388281d7626c5a7e1a14b6410d462327573664ed2a563f0eaf620ad  assets/current/wordmark/v1.0/enotone_porcelain_transparent.svg

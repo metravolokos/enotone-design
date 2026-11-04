@@ -10,3 +10,8 @@ Thumbs.db
 assets/icons/exports/
 assets/icons/preview/
 assets/references/bandit-10-approved.png
+
+# Local Android build outputs
+android-icon-smoke/.gradle/
+android-icon-smoke/**/build/
+android-icon-smoke/local.properties
