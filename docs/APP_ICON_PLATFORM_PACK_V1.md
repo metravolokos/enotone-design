@@ -1,5 +1,7 @@
 # enoTone App Icon — platform resources v1.0 and real SVG candidates
 
+> **ЗАМЕНЕНО 2026-11-12:** действующая иконка — [App Icon v2.0](APP_ICON_V2.md). Этот документ — история; его файлы не использовать в новых ресурсах.
+
 **Дата:** 2026-11-04
 
 > **Обновление:** Android adaptive foreground из этого пакета включал фон и является **устаревшим прототипом**. Его заменил [Android Adaptive Color v2](ANDROID_ADAPTIVE_COLOR_V2.md) с отдельными RGBA-персонажем и цветовым фоном. Monochrome не делаем по решению пользователя. Windows/Linux экспорты и SVG-кандидаты из этого документа сохраняют свой статус.  
