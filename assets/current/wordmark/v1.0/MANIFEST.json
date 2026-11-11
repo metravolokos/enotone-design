@@ -1,0 +1,31 @@
+{
+  "product": "enoTone",
+  "status": "candidate-for-approval",
+  "source": "image(20261104-081404).png",
+  "source_sha256": "ff0ac0425015f2146004c8ce57a4f6826d89f3ce682ef240203c8180b25767b8",
+  "source_silhouettes": "left eno and central T directly extracted; right side is exact horizontal mirror of left",
+  "alpha": "segmented from uploaded raster; minor anti-aliasing cleanup",
+  "themes": {
+    "graphite": {
+      "bg": "#1B1A19",
+      "letters": "#F4ECE4",
+      "T": "#EBAE9F"
+    },
+    "porcelain": {
+      "bg": "#EDE9E5",
+      "letters": "#211E1C",
+      "T": "#A24F3E"
+    }
+  },
+  "files": {
+    "enotone_graphite.png": "c7fb384f4f682737a8146f09ebcc562c8bc88776105f2fad940fe3eef485279c",
+    "enotone_graphite_transparent.png": "9fe64a79728686a38843d757e1e2bf4cd5662e47e3267dc23fffcaf356660b81",
+    "enotone_porcelain.png": "6c4441773a12f7d65e2a9bfbff8f81ed7d6a4abdbe6819a159ca145fa1d087d6",
+    "enotone_porcelain_transparent.png": "fe8cd35aa3af8153bd2fa38b72247a072166a2ae9d9b3cd7517c8f19b8994aca",
+    "enotone_graphite.svg": "2bb1fd7f8b810cd4500ffe053d17eea964047f81fb483e3ef44f80516268a446",
+    "enotone_graphite_transparent.svg": "e55cec493e0280b7d9b0135041113721ec2d7ff718f5d0c32239e5948f623d2a",
+    "enotone_porcelain.svg": "9678aee1ac584d4db0a6aecf8c96a7eff169dcd1e3f7f2748d9a71dafd999821",
+    "enotone_porcelain_transparent.svg": "8fdadb698388281d7626c5a7e1a14b6410d462327573664ed2a563f0eaf620ad",
+    "comparison.png": "fadec4cded129fb0942ae286453af76b8209d7e5db582fdfb9a661ff92b8907d"
+  }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <application android:allowBackup="false"
+    android:hasCode="true" android:icon="@mipmap/legacy_porcelain_square" android:roundIcon="@mipmap/legacy_porcelain_round"
+    android:label="enoTone Icon Test"
+    android:theme="@style/Theme.IconSmoke"
+    android:usesCleartextTraffic="false">
+    <activity android:name=".MainActivity"
+        android:exported="true"
+        android:screenOrientation="portrait" />
+    <activity-alias android:name=".LauncherAdaptiveGraphite"
+        android:targetActivity=".MainActivity" android:exported="true"
+        android:label="enoTone adaptive G"
+        android:icon="@mipmap/adaptive_graphite">
+       <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+       </intent-filter>
+    </activity-alias>
+    <activity-alias android:name=".LauncherAdaptivePorcelain"
+        android:targetActivity=".MainActivity" android:exported="true"
+        android:label="enoTone adaptive P"
+        android:icon="@mipmap/adaptive_porcelain">
+       <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+       </intent-filter>
+    </activity-alias>
+    <activity-alias android:name=".LauncherLegacyGraphiteSquare"
+        android:targetActivity=".MainActivity" android:exported="true"
+        android:label="enoTone G square"
+        android:icon="@mipmap/legacy_graphite_square">
+       <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+       </intent-filter>
+    </activity-alias>
+    <activity-alias android:name=".LauncherLegacyGraphiteRound"
+        android:targetActivity=".MainActivity" android:exported="true"
+        android:label="enoTone G round"
+        android:icon="@mipmap/legacy_graphite_round">
+       <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+       </intent-filter>
+    </activity-alias>
+    <activity-alias android:name=".LauncherLegacyPorcelainSquare"
+        android:targetActivity=".MainActivity" android:exported="true"
+        android:label="enoTone P square"
+        android:icon="@mipmap/legacy_porcelain_square">
+       <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+       </intent-filter>
+    </activity-alias>
+    <activity-alias android:name=".LauncherLegacyPorcelainRound"
+        android:targetActivity=".MainActivity" android:exported="true"
+        android:label="enoTone P round"
+        android:icon="@mipmap/legacy_porcelain_round">
+       <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+       </intent-filter>
+    </activity-alias>
+  </application>
+</manifest>

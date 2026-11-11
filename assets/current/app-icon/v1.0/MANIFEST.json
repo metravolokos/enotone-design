@@ -1,0 +1,65 @@
+{
+  "product": "enoTone",
+  "asset": "Bandit application icon",
+  "version": "1.0",
+  "status": "APPROVED_BY_USER",
+  "approval_date": "2026-11-04",
+  "approval_scope": "The last four icons with Bandit emerging from bottom edge and prominent raised pointing finger",
+  "themes": {
+    "graphite": "#1B1A19",
+    "porcelain": "#EDE9E5"
+  },
+  "files": [
+    {
+      "role": "graphite_square",
+      "filename": "enotone_icon_graphite_square_1254.png",
+      "sha256": "b7171e14c966fa232e683b1ef444ef6dfb66d42166e48a4a83347fb52f229255",
+      "bytes": 1503978,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "transparent": false,
+      "source": "a_polished_high_detail_glossy_vector_cartoon_ico_2_batch_1.png"
+    },
+    {
+      "role": "graphite_round",
+      "filename": "enotone_icon_graphite_round_1254.png",
+      "sha256": "119f85454aeba19c1ebd05680a4632b56549f37efbad50c295bf1261be19a2c7",
+      "bytes": 1570608,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "transparent": false,
+      "source": "a_highly_polished_glossy_1_1_circular_app_icon_2_batch_2.png"
+    },
+    {
+      "role": "porcelain_square",
+      "filename": "enotone_icon_porcelain_square_1254.png",
+      "sha256": "9ebb268932298f841da7358a62277b84db8865d4454b8d2b92aa9e87e898132a",
+      "bytes": 1779476,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "transparent": false,
+      "source": "a_highly_polished_refined_version_of_the_given_ap_3_batch_3.png"
+    },
+    {
+      "role": "porcelain_round",
+      "filename": "enotone_icon_porcelain_round_1254.png",
+      "sha256": "bf4e341f76a38772b4bd48e280ffb81e6b14f947549465c578fb1139b40be38c",
+      "bytes": 1580000,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "transparent": false,
+      "source": "a_hyper_polished_glossy_vector_cartoon_app_icon_4_batch_4.png"
+    }
+  ],
+  "notes": [
+    "Original received PNGs preserved byte-for-byte.",
+    "RGB PNG; no alpha transparency in source assets. Black corner pixels visible on round samples.",
+    "These are raster images with a vector-like aesthetic, not SVG.",
+    "Previous Bandit SVG v2 was traced from an earlier composition and does NOT represent the newly approved artwork.",
+    "No changes to wordmark master v1.0."
+  ]
+}

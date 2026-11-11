@@ -3,9 +3,9 @@
   "version": "1.0",
   "date": "2026-11-04",
   "status": "working-baseline",
-  "binaryFilesInGitHub": false,
-  "origin": "user-provided screenshots attached in conversation",
-  "originalAssetsPolicy": "Do not modify source PNG pixels; see accompanying ZIP",
+  "binaryFilesInGitHub": true,
+  "origin": "user-provided screenshots delivered via Git handoff enotone-artwork-handoff-20261104",
+  "originalAssetsPolicy": "Do not modify source PNG pixels; verify against assets/current/CHECKSUMS.sha256",
   "screenshots": [
     {
       "platform": "android",
@@ -19,7 +19,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "android",
@@ -33,7 +33,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "android",
@@ -47,7 +47,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "android",
@@ -61,7 +61,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "android",
@@ -75,7 +75,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "desktop",
@@ -89,7 +89,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "desktop",
@@ -103,7 +103,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "desktop",
@@ -117,7 +117,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "desktop",
@@ -131,7 +131,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     },
     {
       "platform": "desktop",
@@ -145,7 +145,7 @@
         "Графит",
         "Фарфор"
       ],
-      "githubBinaryUploaded": false
+      "githubBinaryUploaded": true
     }
   ]
 }
