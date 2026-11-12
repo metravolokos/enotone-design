@@ -14,7 +14,7 @@
 
 ## Где эталоны
 
-- Вид экранов: холст «Дизайн аудиоплеера «Енот»» (claude.ai), ряды «Android v2 …».
+- Вид экранов: `assets/ui-screens/android-v2/` (PNG, обе темы) и [`UI_ANDROID_V2.md`](UI_ANDROID_V2.md); живой исходник — холст «Дизайн аудиоплеера «Енот»» (claude.ai), ряды «Android v2 …». Экран эталона 377 × 816 dp, радиус углов ≈ 56 dp.
 - Поведение и правила: документ владельца `DECISIONS_android_v2_ui.md` и `SPEC_now_playing_buffering.md` (проект claude.ai «enoTone Android AudioPlayer»); после D1 — копия плана в `enoTone-android/docs/DESIGN_PLAN.md`.
 - Ресурсы и их правила: `docs/APP_ICON_V2.md`, `docs/UI_ICONS_V1.md`, `docs/WORDMARK_V2.md`, `docs/BANDIT_SET_V1.md`, `tokens/colors.json`.
 

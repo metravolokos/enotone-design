@@ -125,3 +125,9 @@
 - SVG и PNG для «Графита» и «Фарфора» (прозрачные и на подложке), Android VectorDrawable с цветами из ресурсов темы — `assets/wordmark/v2/`; источник — `tools/build_wordmark.py`, сборка воспроизводима.
 - Wordmark Master v1.0 переведён в историю; обновлены `AGENTS.md` (п. 2), `README.md`, `DESIGN_DECISIONS.md` (§5.6).
 - 2026-11-12: добавлен `docs/ANDROID_INTEGRATION_PLAN.md` — порядок слияния PR #7→#10 и шаги D0–D6 переноса дизайна в enoTone-android.
+
+## 2026-11-12 — Android UI v2: эталонные экраны
+
+- Измерен экран Huawei Nova 15 Pro: 377 × 816 dp (1320 × 2856 px, × 3,5), радиус углов ≈ 56 dp по фото (системный API Huawei отдаёт 0), вырез-«пилюля» ≈ 77 × 27 dp.
+- Все артборды Android v2 на холсте приведены к этому размеру; уточнены обложка «Сейчас играет» (321 dp), кнопки управления (64/84/64), обложка альбома (240 dp), заголовки секций «Домой» (17 sp).
+- 13 экранов в обеих темах экспортированы в `assets/ui-screens/android-v2/` с исходниками артбордов и `SHA256SUMS`; описание — `docs/UI_ANDROID_V2.md`; `DESIGN_DECISIONS.md` §5.7, `AGENTS.md` п. 7, `ANDROID_INTEGRATION_PLAN.md`.
