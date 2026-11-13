@@ -6,7 +6,6 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Outputs regenerated exactly by python tools/restore_assets.py
-assets/icons/exports/
-assets/icons/preview/
-assets/references/bandit-10-approved.png
+# Python
+__pycache__/
+*.pyc
