@@ -8,7 +8,7 @@
 
 | Что | Документ | Файлы | Источник |
 | --- | --- | --- | --- |
-| Палитра «Глянцевый енот» v1.3, темы «Графит» и «Фарфор» | [DESIGN_DECISIONS §4](docs/DESIGN_DECISIONS.md) | `tokens/colors.json` | — |
+| Палитра «Глянцевый енот» v1.4, темы «Графит» и «Фарфор» | [DESIGN_DECISIONS §4](docs/DESIGN_DECISIONS.md) | `tokens/colors.json`, `assets/tokens/android/` | `tools/build_tokens.py` |
 | Иконка приложения v2.0 | [APP_ICON_V2](docs/APP_ICON_V2.md) | `assets/icons/v2.0/` | `tools/build_app_icon.py` |
 | Текстовый логотип Wordmark v2.0 | [WORDMARK_V2](docs/WORDMARK_V2.md) | `assets/wordmark/v2/` | `tools/build_wordmark.py` |
 | Значки интерфейса UI Icons v1 | [UI_ICONS_V1](docs/UI_ICONS_V1.md) | `assets/ui-icons/v1/` | `tools/build_ui_icons.py` |

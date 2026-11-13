@@ -9,5 +9,6 @@
 | `ui-icons/v1/` | значки интерфейса: SVG и Android VectorDrawable |
 | `wordmark/v2/` | текстовый логотип: SVG, PNG, Android drawable |
 | `ui-screens/android-v2/` | эталонные экраны Android UI v2 |
+| `tokens/android/` | палитра как Android-ресурсы (`tools/build_tokens.py`) |
 
 Правила — [`docs/ASSET_POLICY.md`](../docs/ASSET_POLICY.md).
