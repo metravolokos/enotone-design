@@ -2,7 +2,7 @@
 
 **Дата:** 2026-11-12
 **Статус:** **APPROVED** владельцем; аппаратная проверка на Huawei Nova 15 Pro ещё не выполнена.
-**Заменяет:** App Icon v1.0 (`APP_ICON_APPROVED_V1.md`), платформенный пакет v1 (`APP_ICON_PLATFORM_PACK_V1.md`) и Android Adaptive Color v2 (`ANDROID_ADAPTIVE_COLOR_V2.md`). Они остаются историей.
+**Заменяет:** App Icon v1.0, платформенный пакет v1 и Android Adaptive Color v2 (их документы удалены при чистке 2026-11-13; история — коммит `dd0c101`).
 
 ## Почему заменена v1.0
 

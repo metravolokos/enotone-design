@@ -131,3 +131,9 @@
 - Измерен экран Huawei Nova 15 Pro: 377 × 816 dp (1320 × 2856 px, × 3,5), радиус углов ≈ 56 dp по фото (системный API Huawei отдаёт 0), вырез-«пилюля» ≈ 77 × 27 dp.
 - Все артборды Android v2 на холсте приведены к этому размеру; уточнены обложка «Сейчас играет» (321 dp), кнопки управления (64/84/64), обложка альбома (240 dp), заголовки секций «Домой» (17 sp).
 - 13 экранов в обеих темах экспортированы в `assets/ui-screens/android-v2/` с исходниками артбордов и `SHA256SUMS`; описание — `docs/UI_ANDROID_V2.md`; `DESIGN_DECISIONS.md` §5.7, `AGENTS.md` п. 7, `ANDROID_INTEGRATION_PLAN.md`.
+
+## 2026-11-13 — чистка от отменённых решений
+
+- Удалены отменённые ресурсы и документы: архив ZIP из 5 частей и восстановитель `tools/restore_assets.py`, коллаж старого Бандита из 10 сцен (`assets/references/`), доска иконок v1 (`assets/icons/originals/`), `APP_ICON_APPROVED_V1`, `APP_ICON_PLATFORM_PACK_V1`, `ANDROID_ADAPTIVE_COLOR_V2`, `BANDIT_SVG_V1/V2`, `WORDMARK_MASTER_V1`, `UPLOAD_ASSETS`, `SOURCES.sha256`, бриф `ANDROID_MINIMAL_DIRECTION_2026-11-11` (заменён `UI_ANDROID_V2`), `ENOTONE-MVP-RESET-2026-11-04` (организация работ того периода). Всё это остаётся в истории Git до коммита `dd0c101`.
+- `DESIGN_DECISIONS.md` переписан как сводка действующего (v2.0) вместо наслоения дополнений; переписаны `README.md`, `AGENTS.md`, `ASSET_POLICY.md`, `assets/README.md`; в `UI_BASELINE_V1.md` Android-часть помечена историей, Desktop — рабочее направление.
+- Предыдущие записи хронологии не менялись: в них упоминаются удалённые файлы — это история.

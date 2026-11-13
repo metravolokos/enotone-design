@@ -3,7 +3,7 @@
 **Дата:** 2026-11-12
 **Статус:** `APPROVED_REFERENCE` — утверждённый владельцем эталон раскладки Android v2 («минимализм в духе Apple Music»). Реализация в `enoTone-android` — по плану [ANDROID_INTEGRATION_PLAN](ANDROID_INTEGRATION_PLAN.md), этапы D2–D6.
 
-Заменяет как эталон Android-часть [UI_BASELINE_V1](UI_BASELINE_V1.md) и развивает [ANDROID_MINIMAL_DIRECTION_2026-11-11](ANDROID_MINIMAL_DIRECTION_2026-11-11.md). Палитра — `tokens/colors.json` v1.3, значки — [UI_ICONS_V1](UI_ICONS_V1.md), Бандит — [BANDIT_SET_V1](BANDIT_SET_V1.md), логотип — [WORDMARK_V2](WORDMARK_V2.md).
+Заменяет как эталон Android-часть [UI_BASELINE_V1](UI_BASELINE_V1.md) и бриф «спокойного интерфейса» от 2026-11-11 (удалён при чистке 2026-11-13, история — коммит `dd0c101`). Палитра — `tokens/colors.json` v1.3, значки — [UI_ICONS_V1](UI_ICONS_V1.md), Бандит — [BANDIT_SET_V1](BANDIT_SET_V1.md), логотип — [WORDMARK_V2](WORDMARK_V2.md).
 
 ## Экран эталона — Huawei Nova 15 Pro
 
