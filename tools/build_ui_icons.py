@@ -56,6 +56,12 @@ ICONS = {
     'repeat_one': [('stroke', REPEAT), ('stroke', 'M11 10.6l1.4-.9v4.6', 1.8)],
     'queue': [('stroke', 'M4 6.5h11.5M4 11.5h11.5M4 16.5h6.5M18.6 18.2v-7.6l2.4.9'), ('fill', circle(16.7, 18.2, 2.2))],
     'more': [('fill', circle(12, 5.5, 1.9)), ('fill', circle(12, 12, 1.9)), ('fill', circle(12, 18.5, 1.9))],
+    # служебные (2026-11-14): поиск и «ползунки» — из утверждённых макетов Android v2
+    # (Android2-Songs / Android2-Home-C2), «закрыть» — для поля поиска, той же линией
+    'search': [('stroke', circle(10.5, 10.5, 6.3)), ('stroke', 'M15.3 15.3L20 20')],
+    'tune': [('stroke', 'M4 7h8.5M17.5 7H20M4 17h2.5M11.5 17H20'),
+             ('stroke', circle(15, 7, 2.5)), ('stroke', circle(9, 17, 2.5))],
+    'close': [('stroke', 'M6.5 6.5L17.5 17.5M17.5 6.5L6.5 17.5')],
 }
 
 def svg(els):
