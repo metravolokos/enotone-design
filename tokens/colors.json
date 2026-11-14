@@ -1,6 +1,6 @@
 {
   "product": "enoTone",
-  "version": "1.4",
+  "version": "1.5",
   "status": "approved-design-concept",
   "concept": "Глянцевый енот",
   "darkThemeName": "Графит",
@@ -21,7 +21,9 @@
     "line": "#3A3633",
     "onAccent": "#1B1A19",
     "shadow": "#80000000",
-    "scrim": "#8C000000"
+    "scrim": "#8C000000",
+    "coverRim": "#59FFFFFF",
+    "shadowStrong": "#A6000000"
   },
   "light": {
     "background": "#EDE9E5",
@@ -34,7 +36,9 @@
     "line": "#CFC6BE",
     "onAccent": "#211E1C",
     "shadow": "#383C281E",
-    "scrim": "#61211E1C"
+    "scrim": "#61211E1C",
+    "coverRim": "#59000000",
+    "shadowStrong": "#4D3C281E"
   },
   "shared": {
     "coverOutline": "#2E80766E",
@@ -69,6 +73,7 @@
   ],
   "notes": {
     "alphaFormat": "#AARRGGBB (Android)",
-    "v1.4": "2026-11-13: добавлены цвета, уже используемые утверждёнными макетами Android UI v2: line, onAccent, shadow, scrim, shared.*, avatars. Значения v1.3 не менялись."
+    "v1.4": "2026-11-13: добавлены цвета, уже используемые утверждёнными макетами Android UI v2: line, onAccent, shadow, scrim, shared.*, avatars. Значения v1.3 не менялись.",
+    "v1.5": "2026-11-14: coverRim (обводка обложки «Сейчас играет»: белая 35 % в «Графите», чёрная 35 % в «Фарфоре») и shadowStrong (усиленная тень этой обложки) — решение владельца D3.2."
   }
 }
