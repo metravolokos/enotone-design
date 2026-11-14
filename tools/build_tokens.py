@@ -26,6 +26,8 @@ def theme_tokens(t, dark):
         ("eno_on_accent", t["onAccent"]),
         ("eno_shadow", t["shadow"]),
         ("eno_scrim", t["scrim"]),
+        ("eno_cover_rim", t["coverRim"]),
+        ("eno_shadow_strong", t["shadowStrong"]),
     ]
 
 

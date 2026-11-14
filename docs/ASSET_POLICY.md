@@ -10,7 +10,7 @@
 | Иконка приложения v2.0 | `assets/icons/v2.0/` | `tools/build_app_icon.py` |
 | Значки UI Icons v1 | `assets/ui-icons/v1/` | `tools/build_ui_icons.py` |
 | Wordmark v2.0 | `assets/wordmark/v2/` | `tools/build_wordmark.py` |
-| Палитра v1.4 | `tokens/colors.json` → `assets/tokens/android/` | решение владельца + CHANGELOG; Android-ресурсы — только `tools/build_tokens.py` |
+| Палитра v1.5 | `tokens/colors.json` → `assets/tokens/android/` | решение владельца + CHANGELOG; Android-ресурсы — только `tools/build_tokens.py` |
 | Эталонные экраны Android | `assets/ui-screens/android-v2/` | правка на холсте → новый экспорт + `SHA256SUMS` |
 
 ## Допустимо
