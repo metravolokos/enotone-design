@@ -1,3 +1,5 @@
+> **Репозиторий архивный (2026-11-15).** Дизайн enoTone перенесён в [enoTone-android/design](https://github.com/metravolokos/enoTone-android/tree/main/design) (ADR-0090). Изменения сюда не вносить; здесь только история до коммита `a2afd4c`.
+
 # enoTone — дизайн
 
 Дизайн-репозиторий персонального музыкального плеера **enoTone** и его маскота **Бандита**. Здесь лежат утверждённые ресурсы и решения; приложение ([enoTone-android](https://github.com/metravolokos/enoTone-android)) копирует ресурсы отсюда без изменений.
